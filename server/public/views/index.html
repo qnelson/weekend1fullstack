@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Employee Information Forms</title>
+      <script type="text/javascript" src="/vendor/jquery-1.12.3.min.js"></script>
+      <script type="text/javascript" src="/scripts/clientapp.js"></script>
+      <link rel="stylesheet" href="/styles/form-style.css" />
+  </head>
+  <body>
+    <h1>Employee Information Forms</h1>
+    <div>
+      <form id="employeeForm">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" />
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" />
+
+        <label for="employee_id">ID Number:</label>
+        <input type="number" id="employee_id" name="employee_id" />
+
+        <label for="job_title">Job Title:</label>
+        <input type="text" id="job_title" name="job_title" />
+
+        <label for="salary">Annual Salary:</label>
+        <input type="number" id="salary" name="salary" />
+
+        <button id="employeeSubmit">Submit Employee</button>
+      </form>
+    </div>
+
+    <h3 id="title">Average Monthly Cost of Employee Salaries</h3>
+
+    <div id ="salarycontainer">
+    </div>
+
+    <h2>Employee Information</h2>
+    <div id="employeeList">
+
+    </div>
+  </body>
+</html>

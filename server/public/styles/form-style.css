@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+h2, h3 {
+  color: teal;
+  margin: 30px;
+}
+
+h1 {
+  margin: 30px;
+  color: teal;
+}
+
+#salarycontainer {
+  border: 3px solid teal;
+  padding: 10px;
+  margin: 30px;
+  width: 400px;
+
+}
+
+
+
+.container {
+  border: 3px solid teal;
+  padding: 10px;
+  margin: 30px;
+  width: 400px;
+}
+
+
+#first_name, #last_name, #employee_id, #job_title, #salary, #employeeSubmit, label {
+  margin-bottom: 5px;
+  display: block;
+  margin-left: 30px;
+
+}

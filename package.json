@@ -1,0 +1,18 @@
+{
+  "name": "weekend1fullstack",
+  "version": "1.0.0",
+  "description": "Refactor of Weekend 1 Challenge to incorporate Node, Express and SQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quinn Nelson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "jquery": "^2.2.3",
+    "pg": "^4.5.5"
+  }
+}
